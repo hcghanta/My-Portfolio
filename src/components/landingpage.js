@@ -2,13 +2,14 @@ import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 
 class Landing extends Component {
+    //no need to constructor as this class is stateless
     render() {
         return(
             <div style={{width: '100%', margin:'auto'}}>
                 <Grid className="landing-grid">
                     <Cell col={12}>
                         <img 
-                            src="https://media.licdn.com/dms/image/C4E03AQHP88cfrUgHqQ/profile-displayphoto-shrink_200_200/0?e=1582761600&v=beta&t=K_J2vbJRao_G6sGb4iGgQGWnN2rh9I1dCokDdtH9_6Y" 
+                            src="https://cdn1.iconfinder.com/data/icons/diversity-avatars-volume-01-circles/64/hipster-beard-man-white-512.png" 
                             alt="avatar" 
                             className="avatar-img" />
                         <div className="banner-text">
