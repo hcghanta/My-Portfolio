@@ -13,10 +13,10 @@ class Hobbies extends Component {
                 <div className="hobbies-grid">
                     <Card shadow={5} style={{minWidth:'400px', margin:'auto'}}>
                         <CardTitle style={{color: '#fff', height: '200px', background: 'url(https://gra-afch.com/content/uploads/GUS_1041.jpg) center / cover'}}>
-                            Arduino Project #1
+                            Ultrasonic Distance Measurement
                         </CardTitle>
                         <CardText>
-                            Reverse sensors
+                            Measuring distance from objects using an Ultrasonic sensor
                         </CardText>
                         <CardActions border style={{textAlign: 'center'}}>
                             <Button colored>GitHub</Button>
