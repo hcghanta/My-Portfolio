@@ -64,12 +64,12 @@ class Hobbies extends Component {
         }
         else if (this.state.activeTab === 1) {
             return (
-                <div><h1>This is Drone Captures</h1></div>
+                <div><h1 style={{color: '#F2E51C'}}>In Progress!</h1></div>
             )
         }
         else if (this.state.activeTab === 2) {
             return (
-                <div><h1>This is Outdoor Activities</h1></div>
+                <div><h1 style={{color: '#F2E51C'}}>In Progress!</h1></div>
             )
         }
     }
