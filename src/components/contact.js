@@ -11,7 +11,7 @@ class Contact extends Component {
                         <h2>Hemachandra Ghanta</h2>
                         <img src={picture}
                             alt="avatar"
-                            style={{width: '300px', height: '400px'}}/>
+                            style={{height: '250px'}}/>
                         <p style={{width: '75%', margin: 'auto', paddingTop: '1em'}}>
                             I am an enthusiastic meh......
                         </p>
